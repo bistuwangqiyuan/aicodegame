@@ -16,7 +16,7 @@ async function seedCourses() {
 
   try {
     // 遍历所有Level的课程
-    for (const [levelKey, courseData] of Object.entries(COURSE_DATA)) {
+    for (const [, courseData] of Object.entries(COURSE_DATA)) {
       console.log(`📚 导入 ${courseData.title}...`)
 
       // 插入课程
