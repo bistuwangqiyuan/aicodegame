@@ -1,0 +1,85 @@
+(()=>{var e={};e.id=918,e.ids=[918],e.modules={7849:e=>{"use strict";e.exports=require("next/dist/client/components/action-async-storage.external")},2934:e=>{"use strict";e.exports=require("next/dist/client/components/action-async-storage.external.js")},5403:e=>{"use strict";e.exports=require("next/dist/client/components/request-async-storage.external")},4580:e=>{"use strict";e.exports=require("next/dist/client/components/request-async-storage.external.js")},4749:e=>{"use strict";e.exports=require("next/dist/client/components/static-generation-async-storage.external")},5869:e=>{"use strict";e.exports=require("next/dist/client/components/static-generation-async-storage.external.js")},399:e=>{"use strict";e.exports=require("next/dist/compiled/next-server/app-page.runtime.prod.js")},3685:e=>{"use strict";e.exports=require("http")},5687:e=>{"use strict";e.exports=require("https")},5477:e=>{"use strict";e.exports=require("punycode")},2781:e=>{"use strict";e.exports=require("stream")},7310:e=>{"use strict";e.exports=require("url")},9796:e=>{"use strict";e.exports=require("zlib")},3458:(e,s,t)=>{"use strict";t.r(s),t.d(s,{GlobalError:()=>l.a,__next_app__:()=>m,originalPathname:()=>u,pages:()=>d,routeModule:()=>p,tree:()=>c});var r=t(482),a=t(9108),n=t(2563),l=t.n(n),i=t(8300),o={};for(let e in i)0>["default","tree","pages","GlobalError","originalPathname","__next_app__","routeModule"].indexOf(e)&&(o[e]=()=>i[e]);t.d(s,o);let c=["",{children:["(dashboard)",{children:["lesson",{children:["[lessonId]",{children:["__PAGE__",{},{page:[()=>Promise.resolve().then(t.bind(t,5590)),"C:\\Users\\wangqiyuan\\project\\cursor\\aicodegame\\src\\app\\(dashboard)\\lesson\\[lessonId]\\page.tsx"]}]},{}]},{}]},{layout:[()=>Promise.resolve().then(t.bind(t,5021)),"C:\\Users\\wangqiyuan\\project\\cursor\\aicodegame\\src\\app\\(dashboard)\\layout.tsx"],"not-found":[()=>Promise.resolve().then(t.t.bind(t,9361,23)),"next/dist/client/components/not-found-error"]}]},{layout:[()=>Promise.resolve().then(t.bind(t,3933)),"C:\\Users\\wangqiyuan\\project\\cursor\\aicodegame\\src\\app\\layout.tsx"],error:[()=>Promise.resolve().then(t.bind(t,4117)),"C:\\Users\\wangqiyuan\\project\\cursor\\aicodegame\\src\\app\\error.tsx"],"not-found":[()=>Promise.resolve().then(t.t.bind(t,9361,23)),"next/dist/client/components/not-found-error"]}],d=["C:\\Users\\wangqiyuan\\project\\cursor\\aicodegame\\src\\app\\(dashboard)\\lesson\\[lessonId]\\page.tsx"],u="/(dashboard)/lesson/[lessonId]/page",m={require:t,loadChunk:()=>Promise.resolve()},p=new r.AppPageRouteModule({definition:{kind:a.x.APP_PAGE,page:"/(dashboard)/lesson/[lessonId]/page",pathname:"/lesson/[lessonId]",bundlePath:"",filename:"",appPaths:[]},userland:{loaderTree:c}})},7120:(e,s,t)=>{Promise.resolve().then(t.bind(t,5835))},3024:(e,s,t)=>{"use strict";t.d(s,{Z:()=>r});/**
+ * @license lucide-react v0.323.0 - ISC
+ *
+ * This source code is licensed under the ISC license.
+ * See the LICENSE file in the root directory of this source tree.
+ */let r=(0,t(9224).Z)("ArrowLeft",[["path",{d:"m12 19-7-7 7-7",key:"1l729n"}],["path",{d:"M19 12H5",key:"x3x0zl"}]])},6135:(e,s,t)=>{"use strict";t.d(s,{Z:()=>r});/**
+ * @license lucide-react v0.323.0 - ISC
+ *
+ * This source code is licensed under the ISC license.
+ * See the LICENSE file in the root directory of this source tree.
+ */let r=(0,t(9224).Z)("Send",[["path",{d:"m22 2-7 20-4-9-9-4Z",key:"1q3vgg"}],["path",{d:"M22 2 11 13",key:"nzbqef"}]])},5835:(e,s,t)=>{"use strict";t.r(s),t.d(s,{default:()=>w});var r=t(5344),a=t(3729),n=t(8428),l=t(6700),i=t(3890),o=t(3158),c=t(1453);let d=(0,o.Ue)((e,s)=>({user:null,isLoading:!0,currentLevel:1,levelProgress:0,nextLevelXP:100,setUser:s=>{if(!s){e({user:null,isLoading:!1,currentLevel:1,levelProgress:0,nextLevelXP:100});return}let t=(0,c.IN)(s.xp);e({user:s,isLoading:!1,currentLevel:t.level,levelProgress:t.progress,nextLevelXP:t.nextLevelXP})},addXP:t=>{let{user:r}=s();if(!r)return;let a=r.xp+t,n={...r,xp:a},l=(0,c.IN)(a);e({user:n,currentLevel:l.level,levelProgress:l.progress,nextLevelXP:l.nextLevelXP}),l.level>r.level&&s().updateLevel()},addCoins:t=>{let{user:r}=s();if(!r)return;let a=r.coins+t;e({user:{...r,coins:a}})},updateLevel:()=>{let{user:t,currentLevel:r}=s();t&&r!==t.level&&e({user:{...t,level:r}})},reset:()=>{e({user:null,isLoading:!1,currentLevel:1,levelProgress:0,nextLevelXP:100})}}));var u=t(508),m=t(9448),p=t(5094),x=t(339),h=t(3024);/**
+ * @license lucide-react v0.323.0 - ISC
+ *
+ * This source code is licensed under the ISC license.
+ * See the LICENSE file in the root directory of this source tree.
+ */let g=(0,t(9224).Z)("Lightbulb",[["path",{d:"M15 14c.2-1 .7-1.7 1.5-2.5 1-.9 1.5-2.2 1.5-3.5A6 6 0 0 0 6 8c0 1 .2 2.2 1.5 3.5.7.7 1.3 1.5 1.5 2.5",key:"1gvzjb"}],["path",{d:"M9 18h6",key:"x1upvd"}],["path",{d:"M10 22h4",key:"ceow96"}]]);var f=t(1498),v=t(6135),b=t(6506);function w(){let e=(0,n.useParams)(),s=(0,n.useRouter)(),{profile:t}=(0,l.a)(),{toast:o}=(0,x.pm)(),c=d(e=>e.updateXP),w=d(e=>e.updateCoins),j=e.lessonId,[y,N]=(0,a.useState)(null),[_,P]=(0,a.useState)(null),[L,S]=(0,a.useState)(!0),[C,q]=(0,a.useState)(!1),[k,z]=(0,a.useState)(!1),[$,E]=(0,a.useState)(0),[Z,M]=(0,a.useState)(""),[I,O]=(0,a.useState)(""),[T,U]=(0,a.useState)("");(0,a.useEffect)(()=>{t&&j&&X()},[t,j]);let X=async()=>{let e=(0,i.e)(),{data:r}=await e.from("lessons").select("*, courses(*)").eq("id",j).single();if(!r){s.push("/learn");return}N(r),P(r.courses);let a=r.content;if(M(a.starter_code?.html||""),O(a.starter_code?.css||""),U(a.starter_code?.js||""),t){let{data:s}=await e.from("user_progress").select("code_snapshot").eq("user_id",t.id).eq("lesson_id",j).single();if(s?.code_snapshot){let e=s.code_snapshot;M(e.html||a.starter_code?.html||""),O(e.css||a.starter_code?.css||""),U(e.js||a.starter_code?.js||"")}}S(!1)},D=async()=>{if(!t)return;let e=(0,i.e)(),{error:s}=await e.from("user_progress").upsert({user_id:t.id,lesson_id:j,status:"in_progress",code_snapshot:{html:Z,css:I,js:T},updated_at:new Date().toISOString()});s?o({title:"保存失败",description:s.message,variant:"destructive"}):o({title:"保存成功",description:"你的进度已保存"})},A=async()=>{if(t&&y){q(!0);try{let e=await fetch("/api/ai/grade",{method:"POST",headers:{"Content-Type":"application/json"},body:JSON.stringify({html:Z,css:I,js:T,instructions:y.content.instructions,validationRules:y.content.validation_rules})}),r=await e.json();if(r.score>=60){let e=(0,i.e)();await e.from("user_progress").upsert({user_id:t.id,lesson_id:j,status:"completed",score:r.score,code_snapshot:{html:Z,css:I,js:T},completed_at:new Date().toISOString(),updated_at:new Date().toISOString()});let a=t.xp+y.xp_reward,n=t.coins+y.coin_reward;await e.from("users").update({xp:a,coins:n}).eq("id",t.id),c(a),w(n),o({title:"\uD83C\uDF89 恭喜通过!",description:`获得 ${y.xp_reward} XP 和 ${y.coin_reward} 金币!`}),setTimeout(()=>{s.push(`/learn/${_.id}`)},2e3)}else o({title:"还需要改进",description:r.feedback||"再试一次吧!",variant:"destructive"})}catch(e){o({title:"提交失败",description:"请稍后重试",variant:"destructive"})}finally{q(!1)}}},R=()=>{z(!0);let e=y.content;e.hints&&$<e.hints.length-1&&E($+1)};if(L||!y)return r.jsx("div",{className:"flex min-h-screen items-center justify-center",children:r.jsx("div",{className:"loading-spinner"})});let H=y.content;return(0,r.jsxs)("div",{className:"flex h-screen flex-col bg-gray-50",children:[(0,r.jsxs)("div",{className:"flex items-center justify-between border-b bg-white px-6 py-3 shadow-sm",children:[(0,r.jsxs)("div",{className:"flex items-center gap-4",children:[r.jsx(b.default,{href:`/learn/${_.id}`,children:(0,r.jsxs)(p.z,{variant:"ghost",size:"sm",className:"gap-2",children:[r.jsx(h.Z,{className:"h-4 w-4"}),"返回课程"]})}),r.jsx("div",{className:"h-6 w-px bg-gray-300"}),(0,r.jsxs)("div",{children:[r.jsx("h2",{className:"font-semibold text-gray-900",children:y.title}),r.jsx("p",{className:"text-xs text-gray-600",children:_.title})]})]}),(0,r.jsxs)("div",{className:"flex items-center gap-2",children:[(0,r.jsxs)(p.z,{variant:"outline",size:"sm",onClick:R,className:"gap-2",children:[r.jsx(g,{className:"h-4 w-4"}),"提示"]}),(0,r.jsxs)(p.z,{variant:"outline",size:"sm",onClick:D,className:"gap-2",children:[r.jsx(f.Z,{className:"h-4 w-4"}),"保存"]}),r.jsx(p.z,{size:"sm",onClick:A,disabled:C,className:"gap-2",children:C?r.jsx(r.Fragment,{children:"提交中..."}):(0,r.jsxs)(r.Fragment,{children:[r.jsx(v.Z,{className:"h-4 w-4"}),"提交"]})})]})]}),(0,r.jsxs)("div",{className:"flex flex-1 overflow-hidden",children:[(0,r.jsxs)("div",{className:"w-80 overflow-y-auto border-r bg-white p-6",children:[r.jsx("h3",{className:"mb-3 text-lg font-semibold text-gray-900",children:"任务说明"}),r.jsx("div",{className:"prose prose-sm mb-6 text-gray-700 whitespace-pre-wrap",children:H.instructions}),k&&H.hints&&(0,r.jsxs)("div",{className:"rounded-lg border border-yellow-200 bg-yellow-50 p-4",children:[(0,r.jsxs)("div",{className:"mb-2 flex items-center gap-2 text-yellow-800",children:[r.jsx(g,{className:"h-4 w-4"}),r.jsx("span",{className:"font-semibold",children:"提示"})]}),r.jsx("ul",{className:"space-y-2 text-sm text-yellow-900",children:H.hints.slice(0,$+1).map((e,s)=>r.jsx("li",{children:e},s))}),$<H.hints.length-1&&r.jsx(p.z,{variant:"link",size:"sm",onClick:R,className:"mt-2 px-0 text-yellow-700",children:"查看下一个提示 →"})]}),(0,r.jsxs)("div",{className:"mt-6 rounded-lg border border-blue-200 bg-blue-50 p-4",children:[r.jsx("h4",{className:"mb-2 font-semibold text-blue-900",children:"完成奖励"}),(0,r.jsxs)("div",{className:"space-y-1 text-sm text-blue-800",children:[(0,r.jsxs)("div",{children:["⚡ +",y.xp_reward," XP"]}),(0,r.jsxs)("div",{children:["\uD83E\uDE99 +",y.coin_reward," 金币"]})]})]})]}),r.jsx("div",{className:"flex flex-1 flex-col",children:(0,r.jsxs)("div",{className:"flex flex-1 overflow-hidden",children:[r.jsx("div",{className:"flex-1",children:r.jsx(u.p,{html:Z,css:I,js:T,onHtmlChange:M,onCssChange:O,onJsChange:U})}),r.jsx("div",{className:"w-1/2 border-l",children:r.jsx(m.T,{html:Z,css:I,js:T})})]})})]})]})}},508:(e,s,t)=>{"use strict";t.d(s,{p:()=>l});var r=t(5344),a=t(3729),n=t(4127);function l({language:e,value:s,onChange:t,readOnly:l=!1,height:i="100%",theme:o="vs-dark"}){let c=(0,a.useRef)(null),[d,u]=(0,a.useState)(!1),m=()=>{c.current&&c.current.getAction("editor.action.formatDocument")?.run()};return(0,a.useEffect)(()=>{d&&window.formatCode&&(window.formatCode[e]=m)},[d,e]),r.jsx("div",{className:"h-full w-full overflow-hidden rounded-lg border border-gray-200",children:r.jsx(n.ZP,{height:i,language:e,value:s,onChange:e=>{void 0!==e&&t(e)},onMount:(s,t)=>{c.current=s,s.updateOptions({fontSize:14,lineNumbers:"on",minimap:{enabled:!1},automaticLayout:!0,scrollBeyondLastLine:!1,wordWrap:"on",tabSize:2,insertSpaces:!0,formatOnPaste:!0,formatOnType:!0,readOnly:l}),"html"===e&&t.languages.html.htmlDefaults.setOptions({format:{tabSize:2,insertSpaces:!0,wrapLineLength:120,unformatted:"wbr",contentUnformatted:"pre,code,textarea",indentInnerHtml:!1,preserveNewLines:!0,maxPreserveNewLines:2,indentHandlebars:!1,endWithNewline:!1,extraLiners:"head, body, /html",wrapAttributes:"auto"}}),u(!0)},theme:o,loading:r.jsx("div",{className:"flex h-full items-center justify-center bg-gray-900",children:(0,r.jsxs)("div",{className:"text-center",children:[r.jsx("div",{className:"loading-spinner mx-auto mb-2"}),r.jsx("p",{className:"text-sm text-gray-400",children:"加载编辑器..."})]})}),options:{readOnly:l,contextmenu:!0,folding:!0,lineDecorationsWidth:10,lineNumbersMinChars:3,renderLineHighlight:"all",scrollbar:{vertical:"visible",horizontal:"visible",verticalScrollbarSize:10,horizontalScrollbarSize:10}}})})}},9448:(e,s,t)=>{"use strict";t.d(s,{T:()=>m});var r=t(5344),a=t(3729),n=t(6588),l=t(9138),i=t(3101),o=t(3733),c=t(5560),d=t(4540),u=t(5094);function m({htmlCode:e,cssCode:s,jsCode:t,autoRefresh:m=!0,refreshDelay:p=1e3}){let x=(0,a.useRef)(null),[h,g]=(0,a.useState)(!1),[f,v]=(0,a.useState)("desktop"),[b,w]=(0,a.useState)([]),j=(0,a.useRef)(),y=()=>`
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Preview</title>
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body { font-family: system-ui, -apple-system, sans-serif; }
+    ${s}
+  </style>
+</head>
+<body>
+  ${e}
+  <script>
+    // 拦截console.log并发送到父窗口
+    (function() {
+      const originalLog = console.log;
+      const originalError = console.error;
+      const originalWarn = console.warn;
+
+      console.log = function(...args) {
+        originalLog.apply(console, args);
+        window.parent.postMessage({
+          type: 'console',
+          method: 'log',
+          args: args.map(arg => String(arg))
+        }, '*');
+      };
+
+      console.error = function(...args) {
+        originalError.apply(console, args);
+        window.parent.postMessage({
+          type: 'console',
+          method: 'error',
+          args: args.map(arg => String(arg))
+        }, '*');
+      };
+
+      console.warn = function(...args) {
+        originalWarn.apply(console, args);
+        window.parent.postMessage({
+          type: 'console',
+          method: 'warn',
+          args: args.map(arg => String(arg))
+        }, '*');
+      };
+
+      // 捕获运行时错误
+      window.onerror = function(message, source, lineno, colno, error) {
+        window.parent.postMessage({
+          type: 'console',
+          method: 'error',
+          args: [\`Error: \${message} at line \${lineno}\`]
+        }, '*');
+        return false;
+      };
+    })();
+
+    // 用户代码
+    try {
+      ${t}
+    } catch (error) {
+      console.error('执行错误:', error.message);
+    }
+  </script>
+</body>
+</html>
+    `,N=()=>{if(!x.current)return;let e=y(),s=new Blob([e],{type:"text/html"});URL.createObjectURL(s),x.current.srcdoc=e,w([])};return(0,a.useEffect)(()=>{if(m)return j.current&&clearTimeout(j.current),j.current=setTimeout(()=>{N()},p),()=>{j.current&&clearTimeout(j.current)}},[e,s,t,m,p]),(0,a.useEffect)(()=>{let e=e=>{if("console"===e.data.type){let{method:s,args:t}=e.data,r=`[${s}] ${t.join(" ")}`;w(e=>[...e,r])}};return window.addEventListener("message",e),()=>window.removeEventListener("message",e)},[]),(0,r.jsxs)("div",{className:`flex h-full flex-col ${h?"fixed inset-0 z-50 bg-white":""}`,children:[(0,r.jsxs)("div",{className:"flex items-center justify-between border-b bg-gray-50 px-4 py-2",children:[(0,r.jsxs)("div",{className:"flex items-center gap-2",children:[r.jsx("span",{className:"text-sm font-medium text-gray-700",children:"预览"}),(0,r.jsxs)("div",{className:"flex gap-1 rounded-lg border p-1",children:[r.jsx("button",{onClick:()=>v("mobile"),className:`rounded p-1 ${"mobile"===f?"bg-blue-500 text-white":"text-gray-600 hover:bg-gray-200"}`,title:"手机视图",children:r.jsx(n.Z,{className:"h-4 w-4"})}),r.jsx("button",{onClick:()=>v("tablet"),className:`rounded p-1 ${"tablet"===f?"bg-blue-500 text-white":"text-gray-600 hover:bg-gray-200"}`,title:"平板视图",children:r.jsx(l.Z,{className:"h-4 w-4"})}),r.jsx("button",{onClick:()=>v("desktop"),className:`rounded p-1 ${"desktop"===f?"bg-blue-500 text-white":"text-gray-600 hover:bg-gray-200"}`,title:"桌面视图",children:r.jsx(i.Z,{className:"h-4 w-4"})})]})]}),(0,r.jsxs)("div",{className:"flex items-center gap-2",children:[r.jsx(u.z,{size:"sm",variant:"ghost",onClick:N,children:r.jsx(o.Z,{className:"h-4 w-4"})}),r.jsx(u.z,{size:"sm",variant:"ghost",onClick:()=>{g(!h)},children:h?r.jsx(c.Z,{className:"h-4 w-4"}):r.jsx(d.Z,{className:"h-4 w-4"})})]})]}),r.jsx("div",{className:"flex-1 overflow-hidden bg-white p-4",children:r.jsx("div",{className:"mx-auto h-full overflow-auto rounded-lg border bg-white shadow-sm",style:{width:(()=>{switch(f){case"mobile":return"375px";case"tablet":return"768px";default:return"100%"}})()},children:r.jsx("iframe",{ref:x,className:"h-full w-full border-0",sandbox:"allow-scripts allow-forms allow-modals allow-pointer-lock allow-popups allow-same-origin",title:"Code Preview"})})}),b.length>0&&(0,r.jsxs)("div",{className:"border-t bg-gray-900 p-4",children:[(0,r.jsxs)("div",{className:"mb-2 flex items-center justify-between",children:[r.jsx("span",{className:"text-sm font-medium text-gray-300",children:"控制台输出"}),r.jsx("button",{onClick:()=>w([]),className:"text-xs text-gray-400 hover:text-white",children:"清空"})]}),r.jsx("div",{className:"max-h-32 overflow-y-auto rounded bg-black p-2 font-mono text-xs",children:b.map((e,s)=>r.jsx("div",{className:`mb-1 ${e.includes("[error]")?"text-red-400":e.includes("[warn]")?"text-yellow-400":"text-green-400"}`,children:e},s))})]})]})}},5590:(e,s,t)=>{"use strict";t.r(s),t.d(s,{$$typeof:()=>n,__esModule:()=>a,default:()=>l});let r=(0,t(6843).createProxy)(String.raw`C:\Users\wangqiyuan\project\cursor\aicodegame\src\app\(dashboard)\lesson\[lessonId]\page.tsx`),{__esModule:a,$$typeof:n}=r,l=r.default}};var s=require("../../../../webpack-runtime.js");s.C(e);var t=e=>s(s.s=e),r=s.X(0,[225,253,506,923,798,301,700,445],()=>t(3458));module.exports=r})();

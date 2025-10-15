@@ -1,0 +1,22 @@
+{
+  "/_not-found": "app/_not-found.js",
+  "/api/ai/chat/route": "app/api/ai/chat/route.js",
+  "/api/ai/explain/route": "app/api/ai/explain/route.js",
+  "/api/ai/grade/route": "app/api/ai/grade/route.js",
+  "/auth/callback/route": "app/auth/callback/route.js",
+  "/page": "app/page.js",
+  "/(dashboard)/admin/courses/page": "app/(dashboard)/admin/courses/page.js",
+  "/(auth)/register/page": "app/(auth)/register/page.js",
+  "/(dashboard)/admin/page": "app/(dashboard)/admin/page.js",
+  "/(auth)/login/page": "app/(auth)/login/page.js",
+  "/(dashboard)/community/page": "app/(dashboard)/community/page.js",
+  "/(dashboard)/dashboard/page": "app/(dashboard)/dashboard/page.js",
+  "/(dashboard)/editor/page": "app/(dashboard)/editor/page.js",
+  "/(dashboard)/leaderboard/page": "app/(dashboard)/leaderboard/page.js",
+  "/(dashboard)/learn/[courseId]/page": "app/(dashboard)/learn/[courseId]/page.js",
+  "/(dashboard)/learn/page": "app/(dashboard)/learn/page.js",
+  "/(dashboard)/lesson/[lessonId]/page": "app/(dashboard)/lesson/[lessonId]/page.js",
+  "/(dashboard)/profile/page": "app/(dashboard)/profile/page.js",
+  "/(dashboard)/projects/[projectId]/page": "app/(dashboard)/projects/[projectId]/page.js",
+  "/(dashboard)/teacher/page": "app/(dashboard)/teacher/page.js"
+}
